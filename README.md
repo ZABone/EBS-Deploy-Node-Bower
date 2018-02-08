@@ -67,6 +67,15 @@ which would update/install automatically via 'bower':
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+### Deploy on AWS
+
+To deploy this project to AWS, be sure to set your environment variables in the console of BeanStalk such as:
+
+- `FORGE_CLIENT_ID`
+- `FORGE_CLIENT_SECRET`
+
+[![Deploy](https://s3.amazonaws.com/deploytomh/button-deploy-aws-mh.png)](https://console.aws.amazon.com/elasticbeanstalk/?region=us-west-2#/newApplication?applicationName=EBS-Deploy-Node&solutionStackName=Node.js)
+
 
 <a name="setupSample"></a>
 ### Setup
